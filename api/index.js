@@ -27,7 +27,7 @@ mongoose.connect(process.env.MONGO_URL)
 
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:5173'
+    origin: 'https://airbncc.netlify.app'
 }))
 
 app.get('/test', (req, res) => {

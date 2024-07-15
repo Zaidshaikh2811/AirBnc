@@ -39,7 +39,7 @@ const Places = () => {
                             {/* grow shrink-0 */}
                             <div className='flex w-32 h-32 bg-gray-300 '>
                                 {/* {data.photos.length && (
-                                    <img className='object-cover' src={'http://localhost:3000/uploads/' + data.photos[0]} alt="" />
+                                    <img className='object-cover' src={'            https://airbnc-5.onrender.com/uploads/' + data.photos[0]} alt="" />
                                 )} */}
                                 <PlaceImg place={data}></PlaceImg>
                             </div>
